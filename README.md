@@ -1,3 +1,3 @@
 # Amihan Demo/Examination
 
-## Compose of Login and Block Element feature
+## Composed of Login and Block Element feature
