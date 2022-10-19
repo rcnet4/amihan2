@@ -1,0 +1,63 @@
+// -------------
+// Form Fields
+// -------------
+$field-label-font-size: 1rem !important;
+$field-error-outlined-border: solid 1px #c80e2c !important;
+
+section.content-wrapper {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  margin-bottom: 20px;
+}
+
+section.route-section {
+  position: relative; // this is relative to content-wrapper
+  width: 100%;
+  top: 50;
+  left: 0;
+}
+
+div.container-fluid {
+  max-width: 1440px;
+}
+
+.rca-nav-bar {
+  .navbar-brand-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar-bg-color {
+    background-color: rgb(30, 30, 31) !important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+}
+
+.rc-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(75, 212, 253);
+  color: #000;
+  height: 40px;
+}
+
+// Field error outlined box
+.wt-field-error-box {
+  border: $field-error-outlined-border;
+}
+
+.wt-field-error-box-with-container {
+  input[type="text"] {
+    border: $field-error-outlined-border;
+  }
+}

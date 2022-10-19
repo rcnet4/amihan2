@@ -1,0 +1,19 @@
+.login-wrapper {
+  height: 100vh;
+  background-color: rgb(88, 88, 88);
+
+  .login-component {
+    width: 500px;
+    height: 450px;
+    background-color: #fff;
+    padding: 25px;
+  }
+
+  .login-title {
+    margin-bottom: 60px;
+  }
+
+  .login-error {
+    color: red;
+  }
+}

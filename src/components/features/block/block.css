@@ -1,0 +1,14 @@
+.box {
+  border: solid 1px #000;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.red {
+    background-color: red;
+}

@@ -1,0 +1,46 @@
+.wt-input-field {
+  input[type="checkbox"].with-font {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+  }
+
+  input[type="checkbox"].with-font ~ label:before {
+    font-family: "Font Awesome 5 Free" !important;
+    display: inline-block !important;
+    content: "\f0c8" !important; /* uncheck */
+    letter-spacing: 10px;
+    font-size: 1.2em !important;
+    color: #3bb5e2;
+    width: 1.4em;
+    text-indent: -2px;
+  }
+
+  input[type="checkbox"].with-font:checked ~ label:before {
+    font-family: "Font Awesome 5 Free" !important;
+    content: "\f14a" !important; /* check */
+    font-size: 1.2em;
+    font-weight: 900;
+    color: #3bb5e2;
+    letter-spacing: 5px;
+    text-indent: -2px;
+  }
+
+  .text-indent-label {
+    text-indent: -27px;
+    padding-left: 30px;
+  }
+
+  /** Markdown overrides for Checkbox Link */
+  .markdown {
+    display: inline !important;
+    p {
+      display: inline !important;
+    }
+  }
+}
