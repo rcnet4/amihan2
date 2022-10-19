@@ -8,7 +8,7 @@ import Config from "./../config";
 export const AuthContext = createContext();
 
 export default function AuthProvider({ children }) {
-  // Note: We can improve this to use a Reducer instead of useState
+  // Note: We can improve this, by using a Reducer instead of useState
   const [user, setUser] = useStorage(USR_TOKEN_KEY, null);
   const [loggingIn, setLoggingIn] = useState(false);
   const [loginError, setLoginError] = useState();
