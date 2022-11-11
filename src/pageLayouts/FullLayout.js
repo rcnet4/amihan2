@@ -28,7 +28,7 @@ const FullLayout = () => {
         </section>
         <Footer>
           <div className="mx-4">
-            Prepared by Ryan Cristobal{"  "}
+            Ryan Cristobal{"  "}
             <a
               href="https://rcnetlabs.com"
               target="_blank"
